@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+  </head>
+  <body>
+    <header>
+      <img src="https://tse2.mm.bing.net/th/id/OIP.191lHaRzPklSLvjjVHPSEAAAAA?pid=ImgDet&rs=1" alt="Header Image" class="header-image">
+      <h1>Iron Farms</h1>
+<br>
+<br>
+      <img src="https://tse2.mm.bing.net/th/id/OIP.191lHaRzPklSLvjjVHPSEAAAAA?pid=ImgDet&rs=1" alt="Header Image" class="header-image-right">
+    </header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#one-chamber">1 Chamber</a>
+      <a href="#two-chamber">2 Chamber</a>
+      <a href="#four-chamber">4 Chamber</a>
+      <a href="#design">1-4 Design</a>
+    </nav>
+    <div class="container" id="about">
+      <h2>About Iron Farms</h2>
+      <p>An iron farm is a crucial element in the world of Minecraft, designed to automate the production of iron ingots. Iron is a valuable resource used for crafting various tools, weapons, and armor. Explore our website to learn more about iron farms and how to build your own.</p>
+      <img src="iron-farm-image.jpg" alt="Iron Farm" />
+    </div>
+<section class="container" id="features">
+  <h2>Iron Farm Features</h2>
+  <p>Explore the various features and benefits of different types of iron farms. Learn about the efficiency, design, and capabilities of each type to make an informed choice for your Minecraft world.</p>
+</section>
 
+<section class="container" id="one-chamber">
+  <h2>1 Chamber Iron Farm</h2>
+  <p>Discover the one-chamber iron farm design. This section provides detailed information on how to build and operate a single-chamber iron farm in Minecraft. Get step-by-step instructions and tips for optimal performance.</p>
+</section>
+
+<section class="container" id="two-chamber">
+  <h2>2 Chamber Iron Farm</h2>
+  <p>If you're looking for higher iron production, the two-chamber iron farm might be the right choice. Learn about the advantages and intricacies of this design, and find guidance on creating your own 2-chamber iron farm.</p>
+</section>
+
+<section class="container" id="four-chamber">
+  <h2>4 Chamber Iron Farm</h2>
+  <p>The 4-chamber iron farm is the pinnacle of iron ingot production. This section delves into the complexities and benefits of a four-chamber iron farm setup. Get insights into how to construct and optimize this advanced design.</p>
+</section>
+
+<section class="container" id="design">
+  <h2>1-4 Design</h2>
+  <p>Discover a hybrid approach that combines elements of 1-chamber, 2-chamber, and 4-chamber iron farms. This unique design allows for flexibility and customization. Learn about the 1-4 design and how to implement it in your world.</p>
+</section>
+  </body>
+</html>
