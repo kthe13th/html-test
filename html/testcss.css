@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(irongolem.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  padding: 100px;
+  margin: 0; /* Add this to remove default margin */
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.tabz {
+  overflow: hidden;
+  border: 1px solid #c1c1c1;
+  background-color: #f1f1f1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.tabz button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 25px;
+  transition: 0.3s;
+  font-size: 20px;
+  margin-right: 1px;
+  margin-left: 1px;
+  border-radius: 5px;
+}
+
+.tabz button:hover:not(#prevz):not(#nextz):not(.tablinkz.activez) {
+  background-color: #ddd;
+}
+
+.tabcontentz {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  clear: both;
+  border-radius: 0 0 5px 5px;
+}
+
+.tablinkz {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  float: left;
+  padding: 20px 24px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tablinkz.activez {
+  background-color: #ccc;
+}
