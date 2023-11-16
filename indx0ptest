@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link rel="stylesheet" href="css.css">
+   <script src="home.js"></script>
+   <script src="home1.js"></script>
+  </head>
+  <body>
+    <header>
+    <a>
+      <img src="" alt="Header Image" class="header-image">
+      </a>
+      <h1>Iron Farms</h1>
+      <p>
+      <img src="" alt="Header Image" class="header-image-right" onclick="changeImage()">
+      </p>
+      <hr class="hrv2">
+    </header>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="index1.html">1 Chamber</a>
+      <a href="#two-chamber">2 Chamber</a>
+      <a href="#four-chamber">4 Chamber</a>
+      <a href="#design">1-4 Design</a>
+    </nav>
+
+       <br>
+     <br>
+<section class="container" id="home">
+      <h2>About Iron Farms</h2>
+      <p>
+This page is all about teaching you how to build an iron farm.<br/>
+In each tutorial, we have provided a resources list and picture references for easier guidance.<br/>
+We have 4 iron farm design tutorials to offer.<br>
+
+ <section class="tab">
+    <button class="tablinks active" data-tab="step1" onclick="showTab('step1')">1 Chamber</button>
+    <button class="tablinks" data-tab="step2" onclick="showTab('step2')">2 Chamber</button>
+    <button class="tablinks" data-tab="step3" onclick="showTab('step3')">4 Chamber</button>
+    <button class="tablinks" data-tab="step4" onclick="showTab('step4')">1-4 Design</button>
+  </section>
+
+  <section class="tabcontent" id="step1" >
+  <p class="hzz"> GALLERY </p>
+<div class="image-container">
+    <button class="tablinkz" id="prevz" onclick="showTabz('prevz')"><img src="leftr.png" style="opacity: 0.2;" ></button>
+
+    <section class="tabcontentz" id="steps1" style="display: block;">
+    <img src="s9.png" class="imgs1">
+       <p class="ptz">9</p>
+  </section>
+  <section class="tabcontentz" id="steps2" >
+    <img src="s1.png" class="imgs1">
+  </section>
+  <section class="tabcontentz" id="steps3">
+    <img src="s2.png" class="imgs1">
+  </section>
+  <section class="tabcontentz" id="steps4">
+    <img src="s3.png" class="imgs1">
+  </section>
+  <section class="tabcontentz" id="steps5">
+    <img src="s4.png" class="imgs1">
+  </section>
+  <section class="tabcontentz" id="steps6">
+    <img src="s5.png" class="imgs1">
+  </section>
+  <section class="tabcontentz" id="steps7">
+    <img src="s6.png" class="imgs1">
+  </section>
+  <section class="tabcontentz" id="steps8">
+    <img src="s7.png" class="imgs1">
+  </section>
+    <section class="tabcontentz" id="steps9">
+    <img src="s8.png" class="imgs1">
+  </section>
+
+  <button class="tablinkz" id="nextz" onclick="showTabz('nextz')"><img src="rightr.png" style="opacity: 0.2;"></button>
+</div>
+  </section>
+
+  <section class="tabcontentz" id="steps2">
+ <img src="s2.png" class="imgs1">
+  </section>
+  <section class="tabcontentz" id="steps3">
+ <img src="s3.png" class="imgs1">
+  </section>
+  <section class="tabcontentz" id="steps4">
+ <img src="s4.png" class="imgs1">
+  </section>
+  <section class="tabcontentz" id="steps5">
+ <img src="s5.png" class="imgs1">
+  </section>
+  <section class="tabcontentz" id="steps6">
+ <img src="s6.png" class="imgs1">
+  </section>
+  <section class="tabcontentz" id="steps7">
+ <img src="s7.png" class="imgs1">
+  </section>
+
+
+  <section class="tabcontent" id="step2">
+ggggggggggggggg
+  </section>
+  <section class="tabcontent" id="step3">
+
+  </section>
+  <section class="tabcontent" id="step4">
+  </section>
+  </section>
+  </body>
+</html>
